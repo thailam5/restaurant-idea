@@ -11,7 +11,7 @@ name = "altair"
 version = "5.5.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "jinja2" },
+    { name = "utils", from = "src" },
     { name = "jsonschema" },
     { name = "narwhals" },
     { name = "packaging" },
