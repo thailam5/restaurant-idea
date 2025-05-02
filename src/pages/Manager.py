@@ -30,6 +30,10 @@ st.markdown("""## Updates
 
 stc.calendar()
 st.markdown("## Notifications", unsafe_allow_html=True)
+st.markdown("* Notification 1", unsafe_allow_html=True)
+
+st.markdown("## Chat", unsafe_allow_html=True)
+
 
 if input := st.chat_input("Enter your messsage"):
 
