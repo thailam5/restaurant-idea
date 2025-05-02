@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit_calendar as stc
 import json
 from utils.sideBar import questionExamples
 
@@ -26,8 +27,8 @@ st.markdown("""## Updates
 * Update 1
 * Update 2
 * Update 3""", unsafe_allow_html=True)
-st.markdown("## Calendar Placeholder", unsafe_allow_html=True)
 
+stc.calendar()
 st.markdown("## Notifications", unsafe_allow_html=True)
 
 if input := st.chat_input("Enter your messsage"):

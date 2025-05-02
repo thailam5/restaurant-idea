@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit_calendar as stc
 
 st.set_page_config(
     page_title="Employee View"
@@ -6,4 +7,4 @@ st.set_page_config(
 
 st.title("Employee")
 
-st.markdown("# Calendar Placeholder", unsafe_allow_html=True)
+stc.calendar()
