@@ -1,0 +1,10 @@
+[project]
+name = "restaurant-idea"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.44.1",
+    "streamlit-calendar>=1.2.1",
+]
